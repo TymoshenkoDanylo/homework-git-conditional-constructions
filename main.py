@@ -29,16 +29,16 @@
 
 # 2. Користувач вводить з клавіатури кількість метрів.
 # Залежно від вибору користувача програма переводить метри милі, дюйм або ярди.
-
-meters = float(input("Enter the number of meters :\t"))
-
-values = str(input("Enter the value (\'mil\', \'duim\', \'yard\':\t"))
-
-if values == 'mil':
-    print("Miles = " + str((meters / 1000) * 0.6214))
-elif values == 'yard':
-    print("Yards = " + str(meters * 1.0936133))
-elif values == 'duim':
-    print("Inches = " + str(meters * 39.3700787))
-else:
-    print("Error! Incorrect input value!")
+#
+# meters = float(input("Enter the number of meters :\t"))
+#
+# values = str(input("Enter the value (\'mil\', \'duim\', \'yard\':\t"))
+#
+# if values == 'mil':
+#     print("Miles = " + str((meters / 1000) * 0.6214))
+# elif values == 'yard':
+#     print("Yards = " + str(meters * 1.0936133))
+# elif values == 'duim':
+#     print("Inches = " + str(meters * 39.3700787))
+# else:
+#     print("Error! Incorrect input value!")
